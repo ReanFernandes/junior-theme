@@ -33,8 +33,8 @@ enable_anchorjs: false
 ######################################
 ## Optional site sections           ##
 ######################################
-show_talks_section:     true
-show_workshops_section: true
+show_talks_section:     false
+show_workshops_section: false
 
 ######################################
 ## Disqus post comments             ##
@@ -48,22 +48,22 @@ disqus_shortname: 'juniortheme-live'
 ##########################################################################
 facebook_comments:
 facebook_appid:
-facebook_comments_number: 10
+facebook_comments_number: 
 
 ###################################
 ## Social icons                  ##
 ###################################
-github_username: thundergolfer
+github_username: ReanFernandes
 bitbucket_username:
 stackoverflow_id:
-twitter_username: jonobelotti_io
+twitter_username: 
 skype_username:
 steam_nickname:
 google_plus_id:
-linkedin_username: jonathonbelotti
+linkedin_username: reanfernandes
 angellist_username:
-medium_id: thundergolfer
-youtube_channel_id: UCSP7fMKwmaXaZhViAV2Vgvg
+medium_id: 
+youtube_channel_id: 
 bitcoin_url:
 paypal_url:
 flattr_button:
@@ -73,10 +73,10 @@ flattr_button:
 ###################################
 show_sharing_icons: True
 # Change to 'true' to enable individual icons
-share_facebook: True
+share_facebook: false
 share_twitter: True
-share_googleplus: True
-share_linkedin: false
+share_googleplus: false
+share_linkedin: True
 share_digg: false
 share_tumblr: false
 share_reddit: True

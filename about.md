@@ -4,30 +4,20 @@ title: About Me
 permalink: /about/
 tags: about
 flicker: true
-headshot: /images/headshot.jpg
+headshot: /images/headshot.jpeg
 ---
 
-I am a Software Engineering student at [RMIT University](https://www.rmit.edu.au/) in Melbourne. Starting November 2016 I will be interning with [Zendesk](https://www.zendesk.com/) in a Data Engineering role.
+I
+I'm a Research Assistant at the [Machine learning lab](https://ml.informatik.uni-freiburg.de/) at the [University of Freiburg](https://uni-freiburg.de/en/), where I specialize in __NLP, Agentic Systems, and Large Language Models (LLMs)__. My work in this area began after I earned my M.Sc. in Embedded Systems Engineering with a specialization in AI from the same university.
 
-I'm currently doing a lot of work building developer communities around my University. I'll chase any opportunity to improve collaboration and outreach in the tech. industry.
+Beyond my core focus, I have a broad interest in deep learning applications, including __Reinforcement Learning, Robotics, and Computer Vision__.
 
-My main areas of interest are in NLP, Agent-Oriented Programming, and Computational Dialectics.
 
-{% if site.show_talks_section %}
-## Talks
 
-- Put something here!
-{% endif %}
-
-{% if site.show_workshops_section %}
-## Workshops
-
-- Put something here!
-{% endif %}
 
 
 <style>
-.post-header, #talks, #workshops {
+.post-header {
   text-align: center; /* Want the About Page header to be in the middle */
 }
 </style>

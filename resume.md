@@ -4,12 +4,7 @@ title: Resumé
 tags: resume
 permalink: /resume/
 ---
----
-layout: cv
-title: Resumé
-tags: resume
-permalink: /resume/
----
+
 # Rean Clive Fernandes
 
 <div id="webaddress">
