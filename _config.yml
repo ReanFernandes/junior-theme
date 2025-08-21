@@ -1,12 +1,12 @@
 ######################################
 ## Site settings                    ##
 ######################################
-title:       Junior Theme
-email:       jonathon.bel.melbourne@gmail.com
-author:      Jonathon Belotti
-description: "A striking black-white Jekyll theme."
+title:       Rean Fernandes
+email:       rean.fds@gmail.com
+author:      Rean Fernandes
+description: "Welcome to my blogspot"
 baseurl:     ""
-url:         "https://reanfds.com"
+url:         "https://reanfds.com/about"
 date_format: "%b %-d, %Y"
 
 # Google services

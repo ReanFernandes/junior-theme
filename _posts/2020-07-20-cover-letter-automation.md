@@ -6,7 +6,7 @@ summary:    Online tools should not hide basic features behind a paywall. So I b
 categories: development python automation
 ---
 
-If you've spent any time on the job hunt, you've probably used an online cover letter builder. I certainly did. Services like FlowCV and others are great at first, offering slick templates and a simple way to create professional-looking documents. But a frustrating trend has emerged: features that were once free are now disappearing behind paywalls.
+If you've spent any time on the job hunt, you've probably used an online cover letter builder. I certainly did. Services like [FlowCV](https://flowcv.com) and others are great at first, offering slick templates and a simple way to create professional-looking documents. But a frustrating trend has emerged: features that were once free are now disappearing behind paywalls.
 
 ### The Motivation: A Frustrating Paywall
 
@@ -26,7 +26,7 @@ The project is intentionally simple. There's no complex backend or database, jus
 
 * **`my_info.json`**: This file holds your personal details, like your name, contact information, and social media links. You set it up once, and the script pulls from it for every cover letter.
 * **`template.html`**: A clean, customizable HTML template that defines the structure and style of your final PDF. It uses Jinja2 syntax to insert your personal info and the cover letter body.
-* **`content/` directory**: This is where you write. Each cover letter body is just a simple `.txt` file. This separates your writing from the formatting, allowing you to focus purely on the words.
+* **`content/`**: This is where you write. Each cover letter body is just a simple `.txt` file. This separates your writing from the formatting, allowing you to focus purely on the words.
 * **`generate_pdf.py`**: The Python script is the core of the project. It reads your information, grabs the correct body text, renders the HTML template, and uses the WeasyPrint library to generate a polished PDF.
 
 With a single command, you can generate a new, perfectly formatted cover letter:
@@ -38,5 +38,8 @@ python generate_pdf.py --company "A Great Company" --body body_great_company.txt
 ![Example image of what the cover letter looks like after generation]({{ 'images/cover_letter_post/CoverLetter-ReanFernandes_LoremIpsum_page-0001.jpg' | relative_url }})
 ## Free, Forever
 This tool is my small protest against the trend of monetizing basic productivity. It's for anyone who believes that you shouldn't have to subscribe to a service just to format a document.
+
+## Possible updates (?)
+I cannot find the time to think of enhancements, but was considering making it possible to add more templates. For the timebeing, I'm happy with the way it looks, I would add those in as I feel necessary :)
 
 Feel free to check out the [GitHub repository](https://github.com/ReanFernandes/cover_letter_text2pdf), use the tool for yourself, and adapt it to your needs.
